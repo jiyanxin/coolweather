@@ -21,6 +21,13 @@
 
         <activity android:name="com.example.jiyanxin.coolweather.activity.WeatherActivity">
         </activity>
+
+        <service android:name="com.example.jiyanxin.coolweather.service.AutoUpdateService">
+        </service>
+
+        <receiver android:name="com.example.jiyanxin.coolweather.receiver.AutoUpdateReceiver">
+        </receiver>
+
     </application>
 
 </manifest>
